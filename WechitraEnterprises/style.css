@@ -1,0 +1,200 @@
+body{
+    padding:0;
+    margin:0;
+    background-color:#eee;
+	font-family:Raleway;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(public/assests/fonts/Raleway-Light.ttf);
+}
+
+.homepage{
+    padding:0px;
+    margin:0;
+    overflow-x : hidden;
+    overflow-y : hidden;
+    width:100%
+}
+.fixed_header{
+    padding:5px;
+    width:100%;
+}
+.page_header{
+    padding:5px;
+    width:100%;
+    background-color:#000;
+}
+.brand_logo{
+	background-image: url(public/assests/logo.png);
+    height: 60px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 5%;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    background-size:50px;
+}
+.homeBanner{
+	height:700px;
+	background-image : url('public/assests/green.jpg');
+	background-size:cover;
+    width:100%;
+}
+.banner_text{
+	clear:both;
+	position:relative;
+	top:30px;
+	left:90px;
+	height:450px;
+}
+.banner_text p{
+	font-size:80px;
+}
+.homeBanner p{
+	color:#eee;
+	font-family:Raleway;
+}
+.nav_panel{
+	float:right;
+	position:fixed;
+    margin-left : 30%;
+    display:inline-block;
+    padding:17px 0px;
+    width:65%;
+}
+.nav_panel a{
+	display:inline-block;
+	color:#fff;
+	font-size: 20px;
+	width:20%;
+	text-align:center;
+    cursor:pointer;
+}
+.company_name{
+	font-size:45px;
+}
+.company_tagline{
+	font-size:30px;
+}
+.name_banner{
+	
+}
+
+.homeContent{
+    padding:20px 10px;
+}
+.home_icons{
+    height: 360px;
+    padding: 0px 20px;
+}
+.home_icon_holder{
+    height:100%;
+}
+.icon_info_holder{
+    height:100%;
+}
+.home_icon_image{
+    height:50%;
+}
+.home_icon_text{
+     height:50%;
+     background-color: azure;
+     padding-top: 10px;
+}
+.solar_image{
+    background-image:url('public/assests/solars.jpeg');
+    background-size:cover;
+}
+
+.section{
+	height:700px;
+	border: 1px solid black;
+}
+.service_banner{
+	height:50%;
+	background-image:url('public/assests/panels.jpeg');
+	opacity:0.9;
+	padding-top:100px;
+}
+.service_tagline{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.service_text{
+	color: white;
+    text-align: center;
+    font-size: 70px;
+    padding: 0px;
+    margin: 0;
+}
+.homeFooter{
+	height:200px;
+    padding:20px;
+	background-color:black;
+	opacity:0.7;
+}
+.social_icons{
+	padding:20px;
+    text-align:center;
+	color:white;
+}
+.footer_text{
+	text-align:center;
+	color:white;
+}
+.linkedin{
+	background-image : url('public/assests/linkedin.png');
+	height: 30px;
+    display: block;
+    background-repeat: no-repeat;
+}
+.gplus{
+	background-image: url(public/assests/googleplus.png);
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.fb{
+	background-image: url(public/assests/Facebook.png);
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.youtube{
+	background-image: url(public/assests/YouTube.png);
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.twitter{
+	background-image: url(public/assests/Twitter.png);
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 20px;
+    cursor: pointer;
+}
+.whatsapp{
+	background-image: url(public/assests/WhatsApp.png);
+    height: 30px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    width: 50px;
+    padding: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,26 @@
+<div class="container homepage">
+	<div class="">
+        <div class="page_header">
+            <div class="brand_logo"></div>
+            <div class="nav_panel">
+                <a class="nav_links" ng-repeat="link in ec.texts.NAVLINKS" ui-sref={{link.state}}>{{link.name}}</a>
+            </div>
+        </div>
+	</div>
+	<div class="homeContent">
+	</div>
+	<div class="homeFooter">
+        <div class="social_icons">
+            <span class="gplus"></span>
+            <span class="fb"></span>
+            <span class="twitter"></span>
+            <span class="whatsapp"></span>
+            <span class="youtube"></span>
+        </div>
+		<div class="footer_text">
+			<p>&copy;&nbsp;{{ec.texts.COMPANY}}</p>
+			<p>{{ec.texts.COPYRIGHT}}</p>
+			<p>{{ec.texts.JUDICIARY}}</p>
+		</div>
+	</div>
+</div>
