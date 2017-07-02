@@ -148,6 +148,12 @@ body{
 	height: 120px;
     background-repeat: no-repeat;
 }
+.solar_icon{
+	background-image:url('public/assests/solar.png');
+	height: 120px;
+	background-size:135px;
+    background-repeat: no-repeat;
+}
 .icon_info{
 	padding:0px 25px;
 }
