@@ -4,10 +4,19 @@ body{
     background-color:#eee;
 	font-family:Raleway;
 }
-
+.cent_height{
+	height:100%;
+}
+.border{
+	border:1px solid black;
+}
 @font-face {
     font-family: Raleway;
     src: url(public/assests/fonts/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: Rawline;
+    src: url(public/assests/fonts/rawline-300.woff);
 }
 
 .homepage{
@@ -156,18 +165,57 @@ body{
 }
 .icon_info{
 	padding:0px 25px;
+	
 }
 .icon_header{
     text-align: center;
     color: black;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 22px;
+	font-family:Rawline;
 }
 .icon_text{
     text-align: center;
     font-size: 15px;
 }
+.enquiry_banner{
+	
+}
+.enquiry_blocks{
+	height:33%;
+}
+.enquiry_txt_block{
+	padding: 10% 0px;
+}
+.phone{
+	background-image: url('public/assests/phone.png');
+	background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 30px;
 
+}
+.mail{
+	background-image: url('public/assests/mail.png');
+	background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 30px;
+
+}
+.locate{
+	background-image: url('public/assests/locate.png');
+	background-size: 130px;
+    background-repeat: no-repeat;
+    background-position: 30px;
+
+}
+.meeting{
+	background-image: url('public/assests/meeting.jpg');
+	height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+	background-position:-70px;
+
+}
 .homeFooter{
 	height:200px;
     padding:20px;
