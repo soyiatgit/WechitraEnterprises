@@ -4,6 +4,11 @@ body{
     background-color:#eee;
 	font-family:Raleway;
 }
+#loader{
+	position:relative;
+	top:300px;
+	left:50%;
+}
 .cent_height{
 	height:100%;
 }
