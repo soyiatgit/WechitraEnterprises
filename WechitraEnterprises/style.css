@@ -12,6 +12,9 @@ body{
 .cent_height{
 	height:100%;
 }
+.semi_height{
+	height:50%;
+}
 .border{
 	border:1px solid black;
 }
@@ -220,6 +223,24 @@ body{
     background-repeat: no-repeat;
 	background-position:-70px;
 
+}
+.product_info_block{
+	padding:5%;
+}
+.product_icon_block{
+	height:50%;
+}
+.calculate{
+	background-image: url('public/assests/calculate.png');
+	height: 100%;
+    background-repeat: no-repeat;
+	background-position:center;
+}
+.battery{
+	background-image: url('public/assests/battery.png');
+	height: 100%;
+    background-repeat: no-repeat;
+	background-position:center;
 }
 .homeFooter{
 	height:200px;
