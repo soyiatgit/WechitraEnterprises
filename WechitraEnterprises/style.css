@@ -70,7 +70,7 @@ body{
 }
 .logo_box{
 	display:inline-block;
-	width:12%;
+	width:15%;
 }
 .homeBanner{
 	height:700px;
@@ -122,7 +122,7 @@ body{
 }
 
 .homeContent{
-    padding:20px 10px;
+    padding:0px 0px;
 }
 .home_icons{
     height: 360px;
@@ -276,60 +276,40 @@ body{
 .social_icons{
 	padding:20px;
     text-align:center;
-	color:white;
 }
 .footer_text{
 	text-align:center;
 	color:white;
 }
+.social_icon{
+	display: inline-block;
+    background-repeat: no-repeat;
+    width: 40px;
+    padding: 16px;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
 .linkedin{
 	background-image : url('public/assests/linkedin.png');
-	height: 30px;
-    display: block;
-    background-repeat: no-repeat;
 }
 .gplus{
-	background-image: url(public/assests/googleplus.png);
-    height: 30px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 50px;
-    padding: 20px;
-    cursor: pointer;
+	background-image: url(public/assests/gplus.png);
 }
 .fb{
-	background-image: url(public/assests/Facebook.png);
-    height: 30px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 50px;
-    padding: 20px;
-    cursor: pointer;
+	background-image: url(public/assests/facebook.png);
 }
 .youtube{
-	background-image: url(public/assests/YouTube.png);
-    height: 30px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 50px;
-    padding: 20px;
-    cursor: pointer;
+	background-image: url(public/assests/youtube.png);
 }
 .twitter{
-	background-image: url(public/assests/Twitter.png);
-    height: 30px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 50px;
-    padding: 20px;
-    cursor: pointer;
+	background-image: url(public/assests/twitter.png);
 }
 .whatsapp{
-	background-image: url(public/assests/WhatsApp.png);
-    height: 30px;
-    display: inline-block;
-    background-repeat: no-repeat;
-    width: 50px;
-    padding: 20px;
-    cursor: pointer;
+	background-image: url(public/assests/whatsapp.png);
+}
+.instagram{
+	background-image: url(public/assests/instagram.png);
 }
