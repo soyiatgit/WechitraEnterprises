@@ -261,6 +261,12 @@ body{
     background-repeat: no-repeat;
 	background-position:center;
 }
+.light{
+	background-image: url('public/assests/light.png');
+	height: 100%;
+    background-repeat: no-repeat;
+	background-position:center;
+}
 .tools{
 	background-image: url('public/assests/tools.png');
 	height: 100%;
