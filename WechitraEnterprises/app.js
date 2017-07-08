@@ -35,9 +35,11 @@
 	    $(window).on('scroll',function (e) {
 	        if ($(window).scrollTop() > 100) {
 	            $('.fixed_header').css({ 'position': 'fixed', 'top': '0px', 'background-color' : 'black', 'z-index':99 });
+				$('.brand_logo').css({'visibility' : 'visible'});
 	        }
 	        if ($(window).scrollTop() < 100) {
 	            $('.fixed_header').css({ 'position': 'static', 'top': '10px', 'z-index': 0, 'background-color': 'transparent' });
+				$('.brand_logo').css({'visibility' : 'hidden'});
 	        }
 	    });
 	}
