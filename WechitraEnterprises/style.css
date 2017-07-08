@@ -55,6 +55,23 @@ body{
     left: 20px;
     background-size:50px;
 }
+.logo{
+	background-image: url(public/assests/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.logo_txt{
+	display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    top: 30px;
+}
+.logo_box{
+	display:inline-block;
+	width:12%;
+}
 .homeBanner{
 	height:700px;
 	background-image : url('public/assests/green.jpg');
@@ -66,7 +83,7 @@ body{
 	position:relative;
 	top:30px;
 	left:90px;
-	height:450px;
+	height:430px;
 }
 .banner_text p{
 	font-size:80px;
@@ -93,13 +110,15 @@ body{
 	font-weight:bold;
 }
 .company_name{
-	font-size:45px;
+	font-size:35px;
+	margin:0
 }
 .company_tagline{
-	font-size:30px;
+	font-size:20px;
+	margin:0;
 }
 .name_banner{
-	
+	height:150px;
 }
 
 .homeContent{
@@ -238,6 +257,12 @@ body{
 }
 .battery{
 	background-image: url('public/assests/battery.png');
+	height: 100%;
+    background-repeat: no-repeat;
+	background-position:center;
+}
+.tools{
+	background-image: url('public/assests/tools.png');
 	height: 100%;
     background-repeat: no-repeat;
 	background-position:center;
