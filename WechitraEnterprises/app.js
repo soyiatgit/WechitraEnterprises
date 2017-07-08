@@ -28,7 +28,11 @@
 		    url: '/services',
 		    templateUrl: 'public/templates/services.html',
 		    controller: 'ServiceCtrl as sc'
-		});
+		}).state('blog', {
+		    url: '/blog',
+		    templateUrl: 'public/templates/blog.html',
+		    controller: 'BlogCtrl as bc'
+		});;
 	}
 
 	function runFn($rootScope, $window) {
