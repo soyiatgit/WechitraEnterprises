@@ -1,7 +1,7 @@
 <div class="container homepage">
 	<div class="homeBanner" id="home">
         <div class="fixed_header">
-            <div class="brand_logo"></div>
+            <div class="brand_logo" ng-click="hc.scrollFn($event, 'home')"></div>
             <div class="nav_panel">
                 <a class="nav_links" ng-repeat="link in hc.texts.NAVLINKS" ng-click="hc.scrollFn($event, link.state)">{{link.name}}</a>
             </div>
@@ -21,10 +21,6 @@
 				</div>
 			</div>
 		</div>
-		<!--<div class="name_banner row">
-			<p class="col-lg-12 col-md-offset-4 col-lg-offset-4 col-sm-offset-4 col-xs-offset-4 col-md-12 col-xs-12 col-xs-12 company_name">Wechitra Enterprises</p>
-			<p class="col-lg-12 col-md-12 col-md-offset-4 col-lg-offset-4 col-sm-offset-4 col-xs-offset-4 col-xs-12 col-xs-12 company_tagline">For your entire electrical needs</p>
-		</div>-->
 	</div>
 	<div class="homeContent">
 		<div class="section" id="about" ng-include="'public/templates/aboutus.html'">
@@ -39,26 +35,6 @@
 		<div class="section" id="enquiry" ng-include="'public/templates/enquiry.html'">
 		
 		</div>
-        <div class="home_icon_holder row">
-            <div class="home_icons col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="icon_info_holder row">
-                    <div class="home_icon_image solar_image col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-                    <div class="home_icon_text col-lg-12 col-md-12 col-sm-12 col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum </div>
-                </div>
-            </div>
-            <div class="home_icons col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="icon_info_holder row">
-                    <div class="home_icon_image solar_image col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-                    <div class="home_icon_text col-lg-12 col-md-12 col-sm-12 col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum </div>
-                </div>
-            </div>
-            <div class="home_icons col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <div class="icon_info_holder row">
-                    <div class="home_icon_image solar_image col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
-                    <div class="home_icon_text col-lg-12 col-md-12 col-sm-12 col-xs-12">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum </div>
-                </div>
-            </div>
-        </div>
 	</div>
 	<div class="homeFooter">
         <div class="social_icons">
