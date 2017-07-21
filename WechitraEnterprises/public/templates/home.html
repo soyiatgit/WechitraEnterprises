@@ -4,6 +4,7 @@
             <div class="brand_logo" ng-click="hc.scrollFn($event, 'home')"></div>
             <div class="nav_panel">
                 <a class="nav_links" ng-repeat="link in hc.texts.NAVLINKS" ng-click="hc.scrollFn($event, link.state)">{{link.name}}</a>
+				<a class="nav_links" target = "_blank" href="index.html#/blog">Blog</a>
             </div>
         </div>
 		<div class="banner_text row">
@@ -38,13 +39,13 @@
 	</div>
 	<div class="homeFooter">
         <div class="social_icons">
-            <span class="linkedin social_icon"></span>
-            <span class="gplus social_icon"></span>
-            <span class="fb social_icon"></span>
-            <span class="twitter social_icon"></span>
-            <span class="whatsapp social_icon"></span>
-            <span class="youtube social_icon"></span>
-            <span class="instagram social_icon"></span>
+            <a class="linkedin social_icon"></a>
+            <a href ="https://plus.google.com/102878823154704372525" target="_blank" class="gplus social_icon"></a>
+            <a href="https://www.facebook.com/Wechitra-enterprises-1613080142065641" target="_blank" class="fb social_icon"></a>
+            <a href ="https://www.twitter.com/WechitraEntprse" target="_blank" class="twitter social_icon"></a>
+            <a title="9811589108" class="whatsapp social_icon"></a>
+            <a href ="https://www.youtube.com/channel/UCduIAE5LWtVirKbSmFTw24w" target="_blank" class="youtube social_icon"></a>
+            <a href ="https://www.instagram.com/wechitra.enterprises/" target="_blank"  class="instagram social_icon"></a>
         </div>
 		<div class="footer_text">
 			<p>&copy;&nbsp;{{hc.texts.COMPANY}}</p>
